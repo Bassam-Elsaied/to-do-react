@@ -82,13 +82,256 @@ const handleCompleted =(index)=>{
 }
 
   return (
-    <section className="app">
-      {/* header */}
-      <h1>Do it Now !</h1>
-      <div className="todo-container">
-        {/* inputs */}
-        <div className="todo-inputs">
-
+    <>
+      <div className="backGround">
+          <div className="row 1">
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+          </div>
+          <div className="row altline2">
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+          </div>
+          <div className="row line2">
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+          </div>
+          <div className="row altline3">
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+          </div>
+          <div className="row line3">
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+          </div>
+          <div className="row altline4">
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+          </div>
+          <div className="row line4">
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+          </div>
+          <div className="row altline5">
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+          </div>
+          <div className="row line5">
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+          </div>
+          <div className="row">
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+          </div>
+          <div className="row">
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+          </div>
+          <div className="row">
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+            <div className="hexagon"></div>
+          </div>
+        </div>
+      <section className="app">
+        
+        {/* header */}
+        <h1>Do it Now !</h1>
+        <div className="todo-container">
+          {/* inputs */}
+          <div className="todo-inputs">
             <div className="todo-item">
               <label>Title:</label>
               <input
@@ -111,68 +354,69 @@ const handleCompleted =(index)=>{
             <div className="todo-item">
               <button onClick={handleAdd}>Add</button>
             </div>
+          </div>
+          <div className="btn-area">
+            <button
+              className={`btn ${isComplete === false && "active"}`}
+              onClick={() => setIsComplete(false)}
+            >
+              To-Do
+            </button>
+            <button
+              className={`btn ${isComplete === true && "active"}`}
+              onClick={() => setIsComplete(true)}
+            >
+              Completed
+            </button>
+          </div>
+          <div className="todo-list">
+            {/* the list */}
+            {!isComplete &&
+              list.map((item, index) => {
+                return (
+                  <div className="todo-items" key={index}>
+                    <div>
+                      <h3>{item.header}</h3>
+                      <p>{item.description}</p>
+                    </div>
+                    <div>
+                      <MdDeleteOutline
+                        className="icon"
+                        onClick={() => handleDelet(index)}
+                      />
+                      <BsCheckLg
+                        className="check-icon"
+                        onClick={() => handleCompleted(index)}
+                      />
+                    </div>
+                  </div>
+                );
+              })}
+            {/* the compeletList */}
+            {isComplete &&
+              completedList.map((item, index) => {
+                return (
+                  <div className="todo-items" key={index}>
+                    <div>
+                      <h3>{item.header}</h3>
+                      <p>{item.description}</p>
+                      <p>
+                        <small> Completed on: {item.time}</small>
+                      </p>
+                    </div>
+                    <div>
+                      <MdDeleteOutline
+                        className="icon"
+                        onClick={() => handleDeleCompleted(index)}
+                      />
+                    </div>
+                  </div>
+                );
+              })}
+          </div>
         </div>
-        <div className="btn-area">
-          <button
-            className={`btn ${isComplete === false && "active"}`}
-            onClick={() => setIsComplete(false)}
-          >
-            To-Do
-          </button>
-          <button
-            className={`btn ${isComplete === true && "active"}`}
-            onClick={() => setIsComplete(true)}
-          >
-            Completed
-          </button>
-        </div>
-        <div className="todo-list">
-          {/* the list */}
-          {!isComplete &&
-            list.map((item, index) => {
-              return (
-                <div className="todo-items" key={index}>
-                  <div>
-                    <h3>{item.header}</h3>
-                    <p>{item.description}</p>
-                  </div>
-                  <div>
-                    <MdDeleteOutline
-                      className="icon"
-                      onClick={() => handleDelet(index)}
-                    />
-                    <BsCheckLg
-                      className="check-icon"
-                      onClick={() => handleCompleted(index)}
-                    />
-                  </div>
-                </div>
-              );
-            })}
-          {/* the compeletList */}
-          {isComplete &&
-            completedList.map((item, index) => {
-              return (
-                <div className="todo-items" key={index}>
-                  <div>
-                    <h3>{item.header}</h3>
-                    <p >{item.description}</p>
-                    <p>
-                      <small> Completed on: {item.time}</small>
-                    </p>
-                  </div>
-                  <div>
-                    <MdDeleteOutline
-                      className="icon"
-                      onClick={() => handleDeleCompleted(index)}
-                    />
-                  </div>
-                </div>
-              );
-            })}
-        </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }
 
